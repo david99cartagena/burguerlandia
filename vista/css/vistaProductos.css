@@ -1,0 +1,75 @@
+/****************** C O N T E N E D O R  T A B L A ****************/
+#tblProducto{
+    /*width: 1900px;*/
+    width: 950px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+/**************** T A B L A  U S U A R I O S ******************/
+
+#tblProducto .tblresult{
+    width: 900px;
+    margin: auto;
+}
+
+#tblProducto .tblresult .corto{
+    width: 80px;
+}
+
+#tblProducto .tblresult .normal{
+    width: 180px;
+}
+
+#tblProducto .tblresult .larga{
+    width: 350px;
+}
+
+#titulotbl{
+    margin-top: 40px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.boton{
+    font-size: 1em;
+    height: 30px;
+    padding: 4px 10px;
+}
+
+.boton span{
+    margin-right: 10px;
+}
+
+#imgprod{
+    width: 150px;
+    margin-top: 7px;
+}
+
+/************* V E N T A N A  M O D A L *****************/
+
+#ventanaModal{
+    display: none;
+}
+
+#subeimagen{
+    background-color: white;
+    width: 540px;
+    height: 150px;
+    padding: 10px;
+    margin: 100px auto;
+}
+
+#contentformnewimg{
+    margin-top: 25px;
+}
+
+#contentformnewimg #titulonewimg{
+    margin-left: 9px;
+}
+
+#tblnewimg{
+    box-sizing: border-box;
+    width: 500px;
+    margin: 10px;
+}

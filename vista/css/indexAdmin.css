@@ -1,0 +1,113 @@
+/******************************* T A B L A S *******************************/
+
+#opciones{
+    width: 800px;
+    height: 70px;
+    margin: auto;
+}
+
+    #opciones div{
+        box-sizing: border-box;
+        width: 200px;
+        height: 70px;
+        float: left;
+        -webkit-transition: height .2s;
+        -moz-transition: height .2s;
+    }
+
+    #opciones div:hover{
+        height: 80px;
+    }
+
+    #opciones div#opcionUno{
+        background-color: #0068ff;
+    }
+
+    #opciones div#opcionUno:hover{
+        background-color: rgba(0,104,255,0.8);
+    }
+
+    #opciones div#opcionDos{
+        background-color: #2ca02c;
+    }
+
+    #opciones div#opcionDos:hover{
+        background-color: rgba(44,160,44,0.8);
+    }
+
+    #opciones div#opcionTres{
+        background-color: #ED681D;
+    }
+
+    #opciones div#opcionTres:hover{
+        background-color: rgba(237,104,29,0.8);
+    }
+
+    #opciones div#opcionCuatro{
+        background-color: #DDE035;
+    }
+
+    #opciones div#opcionCuatro:hover{
+        background-color: rgba(221,224,53,0.8);
+    }
+
+    #opciones div a{
+        display: block;
+        box-sizing: border-box;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        margin: auto;
+        padding: 18px 0;
+        font-size: 1.3em;
+        -webkit-transition: padding .2s;
+    }
+
+    #opciones div a span{
+        margin-right: 10px;
+    }
+
+    #opciones div a:hover{
+        padding: 28px 0;
+    }
+
+/******************** C O N T E N E D O R  D E  F O R M U L A R I O **************************/
+
+.contenedorform{
+    box-sizing: border-box;
+    width: 1000px;
+    padding: 5px;
+    margin: 20px auto;
+}
+
+/******************** T A B L A  D E  F O R M U L A R I O **************************/
+
+.tblform{
+    width: 950px;
+    margin: auto;
+    box-shadow: none;
+}
+
+.tblform .col{
+    width: 224px;
+}
+
+.tblform tr{
+    height: 50px;
+}
+
+.tblform #ultima{
+    border-bottom: none;
+    box-shadow: none;
+}
+
+
+
+.boton{
+    margin-left: 10px;
+    width: 200px;
+}
+
+.boton span{
+    margin-right: 10px;
+}

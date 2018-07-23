@@ -1,0 +1,46 @@
+/****************** C O N T E N E D O R  T A B L A ****************/
+#tblDomicilio{
+    /*width: 1900px;*/
+    width: 95%;
+    height: 450px;
+    padding: 10px;
+    margin: 10px auto;
+    overflow-x: scroll;
+}
+
+/**************** T A B L A  U S U A R I O S ******************/
+
+#tblDomicilio .tblresult{
+    width: 1420px;
+    margin: auto;
+    display: inline-flex;
+}
+
+#tblDomicilio .tblresult .corto{
+    width: 110px;
+}
+
+#tblDomicilio .tblresult .normal{
+    width: 150px;
+}
+
+#tblDomicilio .tblresult .larga{
+    width: 220px;
+}
+
+#titulotbl{
+    margin-top: 40px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.boton{
+    font-size: 1em !important;
+    width: 110px !important;
+    height: 30px;
+    padding: 2px 2px;
+}
+
+.boton span{
+    margin-right: 10px;
+}

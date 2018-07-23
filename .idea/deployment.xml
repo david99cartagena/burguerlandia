@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="WampProjects">
+    <serverData>
+      <paths name="WampProjects">
+        <serverdata>
+          <mappings>
+            <mapping deploy="WampProjects" local="$PROJECT_DIR$/.." web="/WampProjects" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

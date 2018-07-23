@@ -1,0 +1,35 @@
+<div class="error" id="loginincorrecto"><p>Usuario o contraseña incorrectos, por favor intente de nuevo!</p></div>
+<div class="error" id="usuariosinrol"><p>Este usuario no tiene un rol definido!</p></div>
+<div id="login">
+    <a href="#" id="cierraModal"><strong>X</strong></a>
+    <section id="contentformlogin">
+        <form id="formLogin">
+            <div class="controllogin">
+                <label for="envia"><input type="hidden" name="enviaLogin" value="envialogin"></label>
+                <div class="logologin">
+                    <i class="fas fa-user-alt fa-2x"></i>
+                </div>
+                <div class="campologin">
+                    <label for="usuario"><input type="text" name="usuario" class="text" placeholder="Usuario" required></label>
+                </div>
+            </div>
+            <div class="controllogin">
+                <div class="logologin">
+                    <i class="fas fa-key fa-2x"></i>
+                </div>
+                <div class="campologin">
+                    <label for="contraseña"><input type="password" name="contrasena" class="text" placeholder="Contraseña" required></label>
+                </div>
+            </div>
+            <div id="contentbotonlogin">
+                <button type="submit" id="btnUno" class="boton"><span><i class="fas fa-sign-in-alt"></i></span>Login</button>
+                <button id="btnDos" class="boton" style="display: none"><i class="fas fa-sync-alt fa-spin"></i></button>
+            </div>
+            <div id="contentbotonlogin">
+                <a href="">¿Olvidaste tu contraseña?</a>
+                <br>
+                <a href="vista/user/registro_user/registroUser.php">¿No estas registrado? Haslo ahora!</a>
+            </div>
+        </form>
+    </section>
+</div>

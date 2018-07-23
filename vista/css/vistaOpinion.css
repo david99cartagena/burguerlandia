@@ -1,0 +1,42 @@
+/****************** C O N T E N E D O R  T A B L A ****************/
+#tblOpinion{
+    /*width: 1900px;*/
+    height: 450px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+/**************** T A B L A  U S U A R I O S ******************/
+
+#tblOpinion .tblresult{
+    margin: auto;
+}
+
+#tblOpinion .tblresult .corto{
+    width: 40px;
+}
+
+#tblOpinion .tblresult .normal{
+    width: 150px;
+}
+
+#tblOpinion .tblresult .larga{
+    width: 600px;
+}
+
+#titulotbl{
+    margin-top: 40px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.boton{
+    font-size: 1em !important;
+    width: 110px !important;
+    height: 30px;
+    padding: 2px 2px;
+}
+
+.boton span{
+    margin-right: 10px;
+}

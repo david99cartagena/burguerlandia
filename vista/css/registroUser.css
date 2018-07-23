@@ -1,0 +1,123 @@
+#contentformregistrouser{
+	box-sizing: border-box;
+	width: 800px;
+	margin: 50px auto;
+	padding: 10px;
+}
+
+.text{
+	box-sizing: border-box;
+	border: 2px solid #ABABAB;
+	border-radius: 7px;
+	height: 40px;
+	text-align: left;
+	padding: 0 5px;
+}
+
+.text:hover{
+	background-color: #E1E1E1;
+}
+
+.control{
+	box-sizing: border-box;
+	width: 500px;
+	height: 70px;
+	margin: 5px auto;
+}
+
+.control #tituloregistro{
+	box-sizing: border-box;
+	width: 200px;
+	padding-left: 3px;
+	margin: auto;
+	color: #757575;
+}
+
+.labelcontrol{
+	color: #3F3F3F;
+}
+
+.control #btn_registro{
+	margin-top: 10px;
+	width: 200px;
+	float: right;
+}
+
+.control #btn_registro span{
+	margin-right: 10px;
+}
+
+#divcontroltipoid{
+	box-sizing: border-box;
+	padding-top: 22px;
+}
+
+#divcontrolrol{
+	box-sizing: border-box;
+	padding-top: 22px;
+}
+
+/*---------FORMULARIO DE LOGUEO---------*/
+
+#login{
+    background-color: #F5F5F5;
+    width: 440px;
+    height: 390px;
+    padding: 5px;
+    margin: 100px auto;
+}
+
+#contentformlogin{
+    height: 360px;
+    margin-top: 70px;
+}
+
+.controllogin{
+    margin: 10px auto;
+    padding: 10px 0;
+    width: 310px;
+    height: 50px;
+    background-color: #F0F0F0;
+    box-shadow: 2px 2px 5px 1px #A5A5A5;
+}
+
+    .logologin{
+        float: left;
+        box-sizing: border-box;
+        width: 68px;
+        height: 50px;
+        padding-left: 18px;
+        padding-top: 7px;
+    }
+
+    .campologin{
+        float: right;
+        width: 230px;
+        padding-right: 10px;
+    }
+
+#contentbotonlogin{
+    margin: 10px auto;
+    padding: 10px 0;
+    width: 310px;
+    text-align: center;
+}
+
+#contentbotonlogin a{
+    text-decoration: none;
+    color: #0078FF;
+}
+
+.text{
+    background-color: #F4F4F4;
+    border-radius: 16px;
+}
+
+.boton{
+    width: 310px;
+    padding: 2px 20px;
+}
+
+.boton span{
+    margin-right: 10px;
+}
